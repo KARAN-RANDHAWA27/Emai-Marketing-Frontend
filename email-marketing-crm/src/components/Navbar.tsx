@@ -109,19 +109,6 @@ const Navbar = () => {
                 </div>
               </Link>
             </li>
-            <li>
-              <button
-                onClick={toggleStatic}
-                className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-              >
-                {isStatic ? (
-                  <FaLock className="w-6 h-6" />
-                ) : (
-                  <FaLockOpen className="w-6 h-6" />
-                )}{" "}
-                {isExpanded && <span className="ml-2">Toggle Sidebar</span>}
-              </button>
-            </li>
           </ul>
         </div>
       </aside>

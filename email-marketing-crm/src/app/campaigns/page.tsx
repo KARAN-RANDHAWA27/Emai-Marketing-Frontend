@@ -30,12 +30,10 @@ const Campaigns = () => {
   }, []);
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100 dark:bg-gray-800">
-      {/* Flexbox with full height */}
-      <TopNavbar /> {/* Top navigation */}
+    <div className="flex flex-col h-screen">
+      <TopNavbar />
       <div className="flex flex-1 flex-row">
-        {/* Sidebar and main content */}
-        <Navbar /> {/* Sidebar */}
+        <Navbar />
         <section className="flex-1 p-6" style={{ marginLeft: "3rem" }}>
           <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
             Campaigns
